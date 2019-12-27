@@ -1,0 +1,180 @@
+
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* MARKETING HOME */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+/* banner */
+.a-mark-banner{
+    
+    padding: 290px 0 219px 0;
+    .banner-heading{
+        position: relative;
+        margin: 0 auto;
+        width: 60%;
+        padding: 56px 40px 59px;
+        color: #fff;
+        border: 12px solid #fff;
+        z-index: 1;
+    }    
+    .heading-subtitle{
+        font-weight: 300;
+        font-size: 13px;
+        letter-spacing: 4.2px;
+        @extend .font-2;
+    }
+    .heading-title{
+        margin-top: 14px;
+        font-weight: 900;
+        font-size: 60px;
+        letter-spacing: 2.2px;
+        @extend .font-3;
+    }
+    .heading-text{
+        width: 60%;
+        margin: 16px auto 0;
+        font-weight: 300;
+        font-size: 16px;
+        opacity: .8;
+        letter-spacing: .2px;
+        line-height: 25px;
+    }
+    .a-btn{
+        margin-top: 34px;
+    }
+}
+
+/* service */
+.a-service{
+    &.s-bg-1{
+        background: #f53752;     
+    }
+    &.s-bg-2{
+        background: #d23047;
+    }
+    &.s-bg-3{
+        background: #ac283b;
+    }
+}
+
+/* info slider */
+.a-slider{
+    .swiper-container{
+        padding-bottom: 50px;
+    }
+    .point-style-4{
+        bottom: 0;
+    }    
+}
+
+.mark-info-slide{
+    padding: 0 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* info block  */
+.p-gym-info{
+    min-height: auto;
+    .a-mark-info-right{
+        padding: 0 0 78px;
+        left: 0;
+        .info-right-header {
+            padding: 136px 0 62px ;
+        }
+        .service-block .text {
+            font-style: normal;
+            margin-top: 7px;
+            text-transform: uppercase;
+        }
+        
+       .service-block {
+            margin-bottom: 58px;
+        }
+    }   
+    .a-mark-info-left{
+        left: 50%;
+        background-size: cover;
+        .gym-back{
+            background-size: contain;
+            background-position: bottom center;
+        }
+    }   
+}
+
+/* info banner */
+.a-mark-banner-info{
+    padding: 233px 0 238px;
+    .a-head-1{
+        padding: 0;
+        .head-subtitle{
+            letter-spacing: 3px;
+        }
+        .a-btn{
+            margin-top: 33px;
+        }
+    }
+}
+
+/* info block 3 */
+.a-banner-small{
+    padding: 77px 0 82px;   
+    color: #fff;
+    .title{
+        @extend .font-3;
+        font-weight: 900;
+        font-size: 32px;
+        letter-spacing: 1.5px;
+    }
+    .text{
+        margin-top: 22px;
+        line-height: 25px;
+        font-weight: 300;
+        font-size: 13px;  
+        letter-spacing: .3px;
+        opacity: .8;
+    }
+    
+    .a-btn{
+        padding: 15px 51px;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+    }
+}
+
+/* customets */
+.p-const-customer{
+    img{
+        margin: 0 auto;
+    }
+}
+
+/* contact form */
+.a-mark-form{
+    .c-form-submit{
+        margin-top: -6px;
+        color: #fff;
+        font-weight: 500;
+        padding: 15px 60px;
+        font-size: 11px;
+    }
+    .styled-textarea:focus, .c-form-input:focus{
+        border: 1px solid $mark-m-c;
+    }
+}
+
+
+.wpc-map{
+    height: 800px;
+    z-index: 10;
+    &::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
